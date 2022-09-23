@@ -83,7 +83,7 @@ router.register(r"battallion_five", BattallionFiveViewset, basename="battallion_
 router.register(r"battallion_six", BattallionSixViewset, basename="battallion_six")
 router.register(r"deleted_employees", DeletedEmployeeViewset, basename="deleted_employees")
 
-schema_view = get_swagger_view(title="VIPPU API")
+schema_view = get_swagger_view(title="UPDS API")
 
 urlpatterns = [
     path("login/", AccountLoginAPIView.as_view(), name="login"),

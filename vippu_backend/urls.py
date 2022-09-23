@@ -6,9 +6,9 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="VIPPU API",
+        title="UPDS API",
         default_version="v1",
-        description="HRIMS Backend",
+        description="UPDS Backend",
         # terms_of_service="https://www.homepetvet.com",
         contact=openapi.Contact(email="shredakajoshua@gmail.com"),
         license=openapi.License(name="Awesome IP"),
