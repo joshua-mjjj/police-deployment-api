@@ -43,8 +43,8 @@ ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://localhost:3001",
-    # "https://vippu.herokuapp.com",
-    # "http://vippu.herokuapp.com",
+    "https://uganda-police-system.herokuapp.com",
+    "http://uganda-police-system.herokuapp.com",
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
