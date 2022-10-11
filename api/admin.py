@@ -14,7 +14,7 @@ from api.models import (
     Battallion_six
 )
 
-admin.site.site_header = "VIPPU"
+admin.site.site_header = "UPDS"
 
 admin.site.register(User)
 admin.site.register(Battallion_two)
